@@ -46,8 +46,8 @@ extension MainMenuViewModel: ViewModel {
     }
     
     func createMenuSections() -> [MenuSection] {
-        return [MenuSection(title: "Product", menus: [.product, .listProduct, .collectionProduct]),
-                MenuSection(title: "Repo", menus: [.repos, .repoCollection, .repoCarousel]),
+        return [MenuSection(title: "Products", menus: [.product, .listProduct, .collectionProduct]),
+                MenuSection(title: "Repos", menus: [.repos, .repoCollection, .repoCarousel]),
                 MenuSection(title: "Others", menus: [.login, .users])]
     }
 }
