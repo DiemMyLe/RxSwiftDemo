@@ -9,6 +9,7 @@
 import UIKit
 
 enum Storyboards {
+    //define storyboard name
     static let main = UIStoryboard(name: "Main", bundle: nil)
     static let colorPicker = UIStoryboard(name: "Color", bundle: nil)
 }
