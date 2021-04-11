@@ -9,9 +9,15 @@
 import UIKit
 
 protocol MainMenuNavigatorProtocol {
-    
+    func goToColorPickerCollectionView()
 }
 
 struct MainMenuNavigator: MainMenuNavigatorProtocol {
+    unowned let assembler: Assembler
+    unowned let navigationController: UINavigationController
     
+    func goToColorPickerCollectionView() {
+        let vc: CollectionMenuViewController = assembler.resolve(navigation: navigationController)
+        navigationController.pushViewController(vc, animated: true)
+    }
 }

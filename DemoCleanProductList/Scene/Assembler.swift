@@ -8,7 +8,10 @@
 
 import UIKit
 
-protocol Assembler: class, MainMenuAssembler, AppAssembler {
+protocol Assembler: class,
+                    MainMenuAssembler,
+                    AppAssembler,
+                    CollectionMenuAssembler {
     
 }
 
