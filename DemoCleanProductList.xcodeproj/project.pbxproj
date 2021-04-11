@@ -26,6 +26,14 @@
 		06C30A812615F0EF002DB0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C30A802615F0EF002DB0D3 /* Assets.xcassets */; };
 		06C30A842615F0EF002DB0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C30A822615F0EF002DB0D3 /* LaunchScreen.storyboard */; };
 		06C30A8F2615F0F0002DB0D3 /* DemoCleanProductListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C30A8E2615F0F0002DB0D3 /* DemoCleanProductListTests.swift */; };
+		06C74680261DDE5200D8C2CF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7467E261DDE5200D8C2CF /* CollectionViewCell.swift */; };
+		06C74681261DDE5200D8C2CF /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06C7467F261DDE5200D8C2CF /* CollectionViewCell.xib */; };
+		06C74683261DDF1F00D8C2CF /* CollectionMenuNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C74682261DDF1F00D8C2CF /* CollectionMenuNavigator.swift */; };
+		06C74685261DDF2F00D8C2CF /* CollectionMenuUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C74684261DDF2F00D8C2CF /* CollectionMenuUseCase.swift */; };
+		06C74687261DDF3C00D8C2CF /* CollectionMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C74686261DDF3C00D8C2CF /* CollectionMenuViewModel.swift */; };
+		06C74689261DDF4C00D8C2CF /* CollectionMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C74688261DDF4C00D8C2CF /* CollectionMenuViewController.swift */; };
+		06C7468B261DDF7D00D8C2CF /* CollectionMenuAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C7468A261DDF7D00D8C2CF /* CollectionMenuAssembler.swift */; };
+		06C7468D261DFA8500D8C2CF /* Color.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C7468C261DFA8500D8C2CF /* Color.storyboard */; };
 		536D010823092FDB927FE405 /* Pods_DemoCleanProductListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF349A4758C2B321F650D7E /* Pods_DemoCleanProductListTests.framework */; };
 		A54F4FA6A6C2223871471B4B /* Pods_DemoCleanProductList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95ED4C093C67871E20DDD69 /* Pods_DemoCleanProductList.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +72,14 @@
 		06C30A8A2615F0F0002DB0D3 /* DemoCleanProductListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCleanProductListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C30A8E2615F0F0002DB0D3 /* DemoCleanProductListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCleanProductListTests.swift; sourceTree = "<group>"; };
 		06C30A902615F0F0002DB0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C7467E261DDE5200D8C2CF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		06C7467F261DDE5200D8C2CF /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		06C74682261DDF1F00D8C2CF /* CollectionMenuNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMenuNavigator.swift; sourceTree = "<group>"; };
+		06C74684261DDF2F00D8C2CF /* CollectionMenuUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMenuUseCase.swift; sourceTree = "<group>"; };
+		06C74686261DDF3C00D8C2CF /* CollectionMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMenuViewModel.swift; sourceTree = "<group>"; };
+		06C74688261DDF4C00D8C2CF /* CollectionMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMenuViewController.swift; sourceTree = "<group>"; };
+		06C7468A261DDF7D00D8C2CF /* CollectionMenuAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMenuAssembler.swift; sourceTree = "<group>"; };
+		06C7468C261DFA8500D8C2CF /* Color.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Color.storyboard; sourceTree = "<group>"; };
 		579D2B0272743DE9DBD8EB12 /* Pods-DemoCleanProductListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCleanProductListTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoCleanProductListTests/Pods-DemoCleanProductListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74F51D149A330C14EC8E1266 /* Pods-DemoCleanProductList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCleanProductList.debug.xcconfig"; path = "Target Support Files/Pods-DemoCleanProductList/Pods-DemoCleanProductList.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF349A4758C2B321F650D7E /* Pods_DemoCleanProductListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCleanProductListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +183,7 @@
 			children = (
 				06A0EB3B2619ED3500DABCF8 /* App */,
 				06A0EB3C2619ED3E00DABCF8 /* Main */,
+				06C7467D261DDE0A00D8C2CF /* CollectionMenu */,
 				06A0EB4B2619FD8D00DABCF8 /* Assembler.swift */,
 				06A0EB57261A0E4900DABCF8 /* Storyboards.swift */,
 			);
@@ -185,6 +202,21 @@
 			children = (
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		06C7467D261DDE0A00D8C2CF /* CollectionMenu */ = {
+			isa = PBXGroup;
+			children = (
+				06C7467E261DDE5200D8C2CF /* CollectionViewCell.swift */,
+				06C7467F261DDE5200D8C2CF /* CollectionViewCell.xib */,
+				06C74682261DDF1F00D8C2CF /* CollectionMenuNavigator.swift */,
+				06C74684261DDF2F00D8C2CF /* CollectionMenuUseCase.swift */,
+				06C74686261DDF3C00D8C2CF /* CollectionMenuViewModel.swift */,
+				06C74688261DDF4C00D8C2CF /* CollectionMenuViewController.swift */,
+				06C7468A261DDF7D00D8C2CF /* CollectionMenuAssembler.swift */,
+				06C7468C261DFA8500D8C2CF /* Color.storyboard */,
+			);
+			path = CollectionMenu;
 			sourceTree = "<group>";
 		};
 		14E681ED61A3F67FE088CF39 /* Frameworks */ = {
@@ -292,10 +324,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C7468D261DFA8500D8C2CF /* Color.storyboard in Resources */,
 				06C30A842615F0EF002DB0D3 /* LaunchScreen.storyboard in Resources */,
 				06C30A812615F0EF002DB0D3 /* Assets.xcassets in Resources */,
 				06C30A7F2615F0EB002DB0D3 /* Main.storyboard in Resources */,
 				06A0EB402619ED7000DABCF8 /* MainMenuCell.xib in Resources */,
+				06C74681261DDE5200D8C2CF /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,13 +432,19 @@
 				06A0EB462619EE7600DABCF8 /* MainMenuNavigator.swift in Sources */,
 				06A0EB4E2619FF1200DABCF8 /* AppNavigator.swift in Sources */,
 				06A0EB482619EE9E00DABCF8 /* MainMenuUsecases.swift in Sources */,
+				06C74683261DDF1F00D8C2CF /* CollectionMenuNavigator.swift in Sources */,
+				06C74687261DDF3C00D8C2CF /* CollectionMenuViewModel.swift in Sources */,
 				06A0EB4A2619EEB100DABCF8 /* MainMenuAssembler.swift in Sources */,
+				06C7468B261DDF7D00D8C2CF /* CollectionMenuAssembler.swift in Sources */,
+				06C74680261DDE5200D8C2CF /* CollectionViewCell.swift in Sources */,
 				06A0EB502619FF2400DABCF8 /* AppUsecase.swift in Sources */,
 				06A0EB58261A0E4900DABCF8 /* Storyboards.swift in Sources */,
 				06A0EB442619EE1C00DABCF8 /* MainMenuViewModel.swift in Sources */,
 				06A0EB422619EDE400DABCF8 /* MainMenuViewController.swift in Sources */,
 				06A0EB56261A0A0D00DABCF8 /* SceneDelegate.swift in Sources */,
 				06A0EB542619FF3D00DABCF8 /* AppAssembler.swift in Sources */,
+				06C74685261DDF2F00D8C2CF /* CollectionMenuUseCase.swift in Sources */,
+				06C74689261DDF4C00D8C2CF /* CollectionMenuViewController.swift in Sources */,
 				06A0EB522619FF3200DABCF8 /* AppViewModel.swift in Sources */,
 				06C30A782615F0EB002DB0D3 /* AppDelegate.swift in Sources */,
 				06A0EB3F2619ED7000DABCF8 /* MainMenuCell.swift in Sources */,

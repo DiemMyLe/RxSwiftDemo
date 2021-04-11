@@ -40,7 +40,14 @@ extension MainMenuViewModel: ViewModel {
             output.menuSections[indexPath.section].menus[indexPath.row]
         }.drive(onNext: { (menu) in
             debugPrint("MENU: \(menu.strDescription)")
-            }).disposed(by: disposeBag)
+            switch menu {
+            case .repoCollection:
+                self.navigator.goToColorPickerCollectionView()
+                break
+            default:
+                break
+            }
+        }).disposed(by: disposeBag)
         
         return output
     }
@@ -48,7 +55,8 @@ extension MainMenuViewModel: ViewModel {
     func createMenuSections() -> [MenuSection] {
         return [MenuSection(title: "Products", menus: [.product, .listProduct, .collectionProduct]),
                 MenuSection(title: "Repos", menus: [.repos, .repoCollection, .repoCarousel]),
-                MenuSection(title: "Others", menus: [.login, .users])]
+                MenuSection(title: "Login", menus: [.login]),
+                MenuSection(title: "Others", menus: [.users])]
     }
 }
 

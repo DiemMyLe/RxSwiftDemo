@@ -31,6 +31,8 @@ class MainMenuViewController: UIViewController, Bindable {
             $0.dataSource = self
             $0.rowHeight = 70
         }
+        
+        self.title = "Menu"
     }
     
     func bindViewModel() {
@@ -66,6 +68,6 @@ extension MainMenuViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-extension MainMenuViewController: StoryboardBased {
+extension MainMenuViewController: StoryboardSceneBased {
     static var sceneStoryboard = Storyboards.main
 }

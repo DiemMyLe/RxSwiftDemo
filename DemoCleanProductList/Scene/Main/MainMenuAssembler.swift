@@ -30,7 +30,7 @@ extension MainMenuAssembler {
 
 extension MainMenuAssembler where Self: DefaultAssembler {
     func resolve(navigationController: UINavigationController) -> MainMenuNavigatorProtocol {
-        return MainMenuNavigator()
+        return MainMenuNavigator(assembler: self, navigationController: navigationController)
     }
     
     func resolve() -> MainMenuUsecasesProtocol {
